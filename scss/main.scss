@@ -1,0 +1,22 @@
+/*!
+ *	project description
+ *
+ *	@author		some author's name
+ *	@version	v0.0.0
+ *
+ */
+
+// import frameworks
+// ..
+
+// import global modules
+@import "global/_fonts";
+@import "global/_variables";
+@import "global/_functions";
+@import "global/_mixins";
+@import "global/_typography";
+@import "global/_layout";
+
+// import modules and vendors
+@import "vendor/*";
+@import "modules/*";

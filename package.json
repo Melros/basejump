@@ -1,0 +1,19 @@
+{
+  "name": "",
+  "title": "",
+  "description" : "",
+  "version": "0.0.0",
+  "homepage" : "",
+  "license": "",
+  "author": {
+    "name" : "",
+    "e-mail" : ""
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "devDependencies": {
+
+  }
+}
