@@ -55,6 +55,10 @@ Module specific typography will be declared in your module file.
 Here you declare all your layout specifiy styles that will be the base of your project.
 Everything else is a module.
 
+#### _shame.scss
+
+For all those dirty quickfixes and hacks. Read: http://csswizardry.com/2013/04/shame-css/
+
 ### Modules
 
 #### \_mod_module-name.scss
