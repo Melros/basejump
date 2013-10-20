@@ -20,11 +20,15 @@ Therefore it's important to keep the loading order in main.scss.
 
 ### Global
 
+#### _reset.scss
+
+Weather you like to use a reset.css or normalize.css or a reset for forms - here's your place to import/insert your resets.
+
 #### _fonts.scss
 
 Load in all @font-face that you use within your project.
 If you prefer to use external resources you may delete this file.
-It's loaded at first to make sure you can access your fonts with variables.
+It's loaded at first to make sure you can access your fonts with variables and mixins.
 
 #### _variables.scss
 
@@ -53,9 +57,9 @@ Everything else is a module.
 
 ### Modules
 
-#### _module-name.scss
+#### _mod_module-name.scss
 
-Everything that is not a global style defined in _layout.scss is a module.
+Everything that is not a global style defined in _layout.scss is a module. Prefix it with mod_ to make search easier for a module. For sure you can find your modules easy via sourcemaps but if you quickly search for "_mod" for example in Sublime Text you gain access to all your modules in one view.
 
 ### Vendor
 
@@ -63,6 +67,10 @@ Everything that is not a global style defined in _layout.scss is a module.
 
 If you use plugins that have a specific style file put them here to use them within your module.
 Make sure to reference a vendor file within your module if you use it.
+
+## _test.scss
+
+Just a file to quick test some css.
 
 ## Comment Style
 
@@ -98,9 +106,10 @@ The following example is based on https://github.com/necolas/idiomatic-css
 /* Basic comment */
 ```
 
-## Changelog
+## Design in the browser tips
 
-- init Version 0.1.0
+If you yet not knowing where your project takes you visually just start on a page module base, take the homepage for example. Before laying out every piece in a module which you yet not certain about if it's reused again put everything for the homepage inside a _mod_home.scss module. If for example a slider on the hompage is going to be used again later then on another page then create a new module _mod_slider.scss. This keeps everything a bit more compact in the beginning.
+
 
 ## MIT license
 
