@@ -33,17 +33,17 @@ It's loaded at first to make sure you can access your fonts with variables and m
 #### _variables.scss
 
 Here you declare all variables that will be used within your project.
-If there are module specific varibles, put them right into your module file.
+If there are module specific variables, put them right into your module file.
 
 #### _functions.scss
 
-Here you declare all your function that will be used within your project.
+Here you declare all your functions that will be used within your project.
 If there's a function that is module specific, put your function within your module file.
 
 #### _mixins.scss
 
 Here you declare all your mixins that will be used within your project.
-If there's a mixin that is module specific, put your function within your module file.
+If there's a mixin that is module specific, put your mixin within your module file.
 
 #### _typography.scss
 
@@ -52,7 +52,7 @@ Module specific typography will be declared in your module file.
 
 #### _layout.scss
 
-Here you declare all your layout specifiy styles that will be the base of your project.
+Here you declare all your layout specific styles that will be the base of your project.
 Everything else is a module.
 
 #### _shame.scss
@@ -63,7 +63,8 @@ For all those dirty quickfixes and hacks. Read: http://csswizardry.com/2013/04/s
 
 #### \_mod_module-name.scss
 
-Everything that is not a global style defined in _layout.scss is a module. Prefix it with mod_ to make search easier for a module. For sure you can find your modules easy via sourcemaps but if you quickly search for "_mod" for example in Sublime Text you gain access to all your modules in one view.
+Everything that is not a global style defined in \_layout.scss is a module. Prefix a module with \_mod_ to make search easier for a module. 
+For sure you can find your modules easy via sourcemaps but if you quickly search for "_mod" for example in Sublime Text you gain access to all your modules in one view.
 
 ### Vendor
 
@@ -114,9 +115,9 @@ The following example is based on https://github.com/necolas/idiomatic-css
 
 ## "Designing in the Browser" - Tips
 
-If you yet not knowing where your project takes you visually just start on a page module base, take the homepage for example. 
-Before laying out every piece in a module which you yet not certain about if it's reused again put everything for the homepage inside a \_mod_home.scss module. 
-If for example a slider on the hompage is going to be used again later then on another page then create a new module \_mod_slider.scss. This keeps everything a bit more compact in the beginning.
+If you yet not knowing where your project takes you visually just start on a "page module" base, take the homepage for example. 
+Before laying out every piece into a module which you yet not certain about if it's reused again put everything for the homepage inside a \_mod_home.scss module. 
+If for example a slider on the homepage is going to be used again later on another page then create a new module \_mod_slider.scss. This keeps everything a bit more compact in the beginning.
 
 
 ## MIT license
