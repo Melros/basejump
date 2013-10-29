@@ -79,7 +79,7 @@ Make sure to reference a vendor file within your module if you use it.
 
 Just a file to quick test some css.
 
-#### comment-style.scss
+#### comment-style.css
 
 A file to declare your global comment style.
 
