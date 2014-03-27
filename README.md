@@ -2,13 +2,6 @@
 
 basejump is a very raw template for quickstart your yet undefined front-end project.
 
-## What's in?
-
-- package.json template
-- Gruntfile.js template
-- SCSS folder structure
-- .editorconfig
-
 ## SCSS Folder Structure
 
 This is a basic folder structure to quickstart a yet undefined project.
