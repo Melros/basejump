@@ -1,13 +1,12 @@
 # basejump
 
-basejump is a very raw template for quickstart your yet undefined front-end project.
+basejump is SCSS Framework that helps to quickstart your work with a predefined folder structure.
 
 ## SCSS Folder Structure
 
 This is a basic folder structure to quickstart a yet undefined project.
 
-The structure is aiming for that you would be able to create a websites just with your /global files.
-Like a framework. Here you declare all the basic elements that the project needs.
+The structure is aiming for that you would be able to create a websites just with your /global files. Here you declare all the basic elements that the project needs.
 Everything else would be an "extensions" and so defined within a module.
 Therefore it's important to keep the loading order in main.scss.
 
