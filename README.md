@@ -37,6 +37,11 @@ If there's a function that is module specific, put your function within your mod
 Here you declare all your mixins that will be used within your project.
 If there's a mixin that is module specific, put your mixin within your module file.
 
+#### _placeholder.scss
+
+Here you declare all your placeholder that will be used within your project.
+If there's a placeholder that is module specific, put your placeholder within your module file.
+
 #### _typography.scss
 
 Here you declare all your layout specifiy typography that will be the base of your project.
