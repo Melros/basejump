@@ -123,4 +123,4 @@ If for example a slider on the homepage is going to be used again later on anoth
 
 ## MIT license
 
-Copyright (c) 2013 Melros
+Copyright (c) 2014 Melros
